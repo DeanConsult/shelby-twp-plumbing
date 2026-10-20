@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -30,6 +30,7 @@
     "name": "Shelby Twp Plumbing",
     "url": "https://www.shelbytwpplumbing.com",
     "telephone": "+15864964678",
+    "image": ["https://www.shelbytwpplumbing.com/images/istockphoto-1412399528-612x612.jpg"],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "12878 Red Pine Lane",
@@ -41,7 +42,9 @@
     "description": "Residential and commercial plumbing repair and installation in Shelby Township MI and Metro Detroit. 25+ years experience. 24-hour emergency service.",
     "areaServed": ["Shelby Township MI", "Metro Detroit", "Macomb County", "Sterling Heights", "Utica", "Clinton Township", "Troy", "Warren"],
     "priceRange": "$$",
-    "openingHours": "Mo-Su 00:00-24:00",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" }
+    ],
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "42.6756",
